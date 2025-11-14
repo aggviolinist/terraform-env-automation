@@ -265,8 +265,8 @@ main() {
 	check_terraform
 	check_awscli
 	check_aws_credentials
-	extract_aws_profiles
-	select_aws_profile
+	# extract_aws_profiles
+	# select_aws_profile
 	create_terraform_infrastructure
 	provider_file_append
 	gitignore_file_append
